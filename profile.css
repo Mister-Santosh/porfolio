@@ -1,0 +1,72 @@
+
+
+#profile{
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to bottom, rgb(34, 23, 122) 30%,rgb(82, 78, 152) ,rgb(34, 23, 122));
+    
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: auto;
+    padding-bottom: 30px;
+}
+
+#profile .image{
+    align-self: flex-end;
+}
+
+#profile .image img{
+    max-width: 50vw;
+    max-height: 50vw;
+    height: 50vh;
+    border-radius: 50%;
+    border: 20px solid rgb(218, 218, 218);
+    background-color: rgb(184, 184, 184);
+}
+
+#profile .dec{
+    box-sizing: border-box;
+    align-content: center;
+    padding: 0 20px;
+    border-radius: 20px;
+    max-width: 100vw;
+    width: 40vw;
+    height: 60vh;
+    background-color: rgb(218, 218, 218);
+}
+#profile .d-head{
+    font-size: 30px;
+}
+
+#profile .d-head p:first-child{
+    text-transform: capitalize;
+}
+
+#profile .d-head p:last-child span:first-child{
+    font-size: 40px;
+}
+
+#profile .dec{
+    /* margin-bottom: 20px; */
+    font-size: 18px;
+}
+
+@media (max-width:650px){
+
+    #profile{
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 130vh;
+    }
+    #profile .image{
+        padding-top: 200px;
+        align-self: center;
+    }
+    #profile .dec{
+        border-radius: 0;
+        width: 100vw;
+        padding: 10px 10px 50px 10px;
+        /* align-self: flex-end; */
+    }
+}
