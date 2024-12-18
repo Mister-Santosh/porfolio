@@ -82,3 +82,14 @@ body{
     background-color: cadetblue;
     color: darkred;
 }
+@media( max-width:500px){
+
+    #menu{
+        justify-content: space-evenly;
+    }
+    #menu a{
+       font-size: 16px; 
+       margin: 0;
+       border-radius: 0;
+    }
+}
